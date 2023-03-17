@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg bg-info text-uppercase  fs-4 fw-bold">
+            <div class="container-fluid">
+              <a class="navbar-brand text-warning fs-1 text" href="#">Seasons</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Winter</a></li>
+                      <li><a class="dropdown-item" href="#">Spring</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Summer</a></li>
+                      <li><a class="dropdown-item" href="#">Autumn</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search season" aria-label="Search">
+                  <button class="btn btn-danger" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-4">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Winter"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Spring"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Summer"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Autumn"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/winter.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Winter</h5>
+                  <p>Snowball time</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/spring.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Spring</h5>
+                  <p>Blooms and smells</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/summer.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Summer</h5>
+                  <p>Best time</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/autumn.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Autumn</h5>
+                  <p>Sad time</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-8">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item bg-primary text-white">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Winter
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Winter is a nice season. </strong> Some people like summer or autumn, but others like winter.
+                  December, January and February are winter months. But in some places winter begins in November and
+                  ends
+                  in March or April. The nights in winter are very long, and it is dark when we get up in the morning.
+                  The
+                  days are short.
+                  The ground, the fields and the trees are white with snow. Sometimes it is very cold, and people put on
+                  their warm clothes when they go out.
+                  Boys and girls like to skate and ski. You can see a lot of children running and jumping in the snow or
+                  playing snowballs. Little children like to make snowmen.
+                  Do you like winter? Why?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-secondary text-white">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Spring
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>The axis of the Earth increases its tilt relative to the Sun in early Spring. </strong> Also,
+                  the length of the daylight increases for the
+                  relevant
+                  hemisphere. Furthermore, the hemisphere gets warm which results in new plants to spring forth. Hence,
+                  the season is called Spring. Another important occurrence is the melting of the snow. Frosts also get
+                  less severe.
+
+                  As Spring advances, many flowering plants bloom. In some areas of Northern hemisphere, Spring begins
+                  in
+                  February. Furthermore, temperate areas have a dry Spring which brings flowering. Also, in sub-arctic
+                  regions, Spring does not begin until May.
+
+                  Spring certainly is the result of warmth. Furthermore, this warmth is due to the changing of Earth’s
+                  axis relative to the Sun. Unstable weather can also occur at Spring. This happens when warm air
+                  invades
+                  from lower latitudes, while cold air pushes from the Polar Regions. In Spring, flooding is common in
+                  the
+                  mountainous areas. This is because of the snowmelt acceleration by warm rains.
+
+                  In recent years, a new Spring phenomenon known as season creep has been observed. Most noteworthy, due
+                  to season creep, signs of Spring are now occurring earlier than expected. This trend is prevalent in
+                  many regions of the World.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-success text-white">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Summer
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Summer is the warmest of the four temperate
+                    seasons</strong> which also include winter spring and autumn. It occurs between spring and autumn.
+                  It
+                  is known
+                  for the longest days and shortest nights. The seasons start on different dates in different cultures
+                  based on astronomy and regional meteorology. However, when it is summer in the southern hemisphere it
+                  is
+                  winter in the northern hemisphere, and vice versa. summerSummer is traditionally associated with hot
+                  dry
+                  weather, but this does not occur in all regions. For example, the wet season occurs during summer
+                  across
+                  many parts of the tropics and subtropics. Tropical cyclones develop and roam the tropical and
+                  subtropical oceans during the summer. In the interior of continents, thunderstorms are most likely to
+                  produce hail during the afternoon and evening. Schools and universities have a summer break to take
+                  advantage of the warmer weather and longer days.
+
+                  People take advantage of the warmer temperatures by spending more time outdoors during the summer.
+                  Activities such as traveling to the beach and picnics occur during summer months. Sports such as
+                  cricket, volleyball, skateboarding, baseball, softball, soccer, tennis, water polo, and football are
+                  played. Water skiing is a uniquely summer sport, which is done when waters approach their warmest of
+                  the
+                  year.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-warning text-dark">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Autumn
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Fall is everybody’s favorite time of year.</strong> The
+                  leaves are changing colors, the air is crisp, and the weather is perfect for outdoor activities.
+                  People
+                  love going out to the pumpkin patch, picking apples from trees, and enjoying the beautiful scenery
+                  around them. Fall quotes & captions can help you relate to the true beauty of this mesmerizing season,
+                  even if its not the fall season yet!
+
+                  These perfect fall quotes will remind you of the incandescent elements that come with the autumn
+                  season.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3">
+          <div class="card">
+            <img src="assets/img/picture.jpeg" class="card-img-top" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">SEASONS</h5>
+              <p class="card-text">Many parts of the world have four seasons in a year. They are spring, summer, fall,
+                and
+                winter. The weather is different during each season. As the weather changes, plants change, too, and
+                animals change their behavior to suit the weather. In spring, the weather begins to get warmer and trees
+                and other plants grow new leaves.</p>
+              <a href="#" class="btn btn-primary">Go to Main Page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="Please, enter your name"
+            value="" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="Please, enter your second name"
+            value="" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefaultUsername" class="form-label">E-mail</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" placeholder="Please, enter your E-mail"
+              id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Nickname</label>
+          <input type="text" placeholder="Please, enter your nickname" class="form-control" id="validationDefault03"
+            required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="form-label">City</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Choose city...</option>
+            <option>Chisinau</option>
+            <option>Kiev</option>
+            <option>Moskva</option>
+            <option>Praga</option>
+            <option>Varshava</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault05" class="form-label">Activity</label>
+          <input type="text" placeholder="Please, enter type of activity" class="form-control" id="validationDefault05"
+            required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Confirm enter information
+            </label>
+          </div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+          <button class="btn btn-primary" type="Reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

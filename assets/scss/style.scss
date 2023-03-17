@@ -1,0 +1,41 @@
+.header {
+  margin: 10px;
+
+  background-color: #e5eb9e;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  text-align: center;
+
+  color: #f8f1a3;
+  background-color: #a78981;
+}
+
+.card-title {
+  text-align: center;
+  letter-spacing: 0.5rem;
+
+  border: 2px black;
+  background-color: #fff05a;
+}
+
+.btn,
+.btn-primary {
+  display: block;
+
+  letter-spacing: 0.1rem;
+
+  color: black;
+  background-color: #fff05a;
+}
+
+.form-label {
+  letter-spacing: 0.5rem;
+
+  color: red;
+}
